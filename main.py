@@ -19,8 +19,10 @@ encrypts individual characters in this fashion. And
 another that encrypts pieces of text.
 """
 
+
 import string
 import random
+
 
 alphabet_lower = string.ascii_lowercase
 alphabet_upper = string.ascii_uppercase
