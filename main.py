@@ -11,7 +11,8 @@ is that many letters "down" the alphabet.
 So for instance encrypting the letter "A" with an
 encryption key of 3 would result in a "D". This 
 simple procedure is then applied to each letter of 
-the message using that same encryption key.
+the message using the encryption key that has been
+chosen.
 
 The code below implements two functions - one that 
 encrypts individual characters in this fashion. And 
@@ -45,8 +46,8 @@ def caesar_encrypt_char(alphabet, char, encrypt_key):
 
 
 def caesar_encrypt_text(text, encrypt_key):
-	""" Encrypt a text according to the Caesars cipher system
-	by encrypting each character individually and appending it to the encryption.
+	""" Encrypt a text according to the Caesars cipher system by encrypting 
+	each character individually and appending it to the encryption.
 	"""
 	encrypted_text = ""
 	for char in text:
